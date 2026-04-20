@@ -244,7 +244,7 @@ export const PreFooterComponent = (quotation) => {
             </div>
             <div class="mt-6 mb-4 text-sri pr-8">
               <p>for DIJET INDIA PVT LTD</p>
-              <p class="mt-5 pl-2">Mugilan Annadurai</p>
+              <p class="mt-5 pl-2">Mr. Ravi Sane</p>
             </div>
           </div>
         </div>
