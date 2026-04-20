@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "srapp-backend",
+      name: "dijet-srapp-backend",
       script: "src/server.js",
       instances: 1,               // single instance (increase to "max" for multi-core when scaling)
       exec_mode: "fork",
