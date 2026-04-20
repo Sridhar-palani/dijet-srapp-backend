@@ -1,7 +1,7 @@
 {
-  "name": "srapp-backend",
+  "name": "dijet-srapp-backend",
   "version": "1.0.0",
-  "description": "Backend for billing and accounting software — Retro Engineering",
+  "description": "Backend for billing and accounting software — Dijet India Pvt Ltd",
   "license": "ISC",
   "author": "sridhar",
   "type": "module",
@@ -13,9 +13,9 @@
     "test:watch": "vitest",
     "create-admin": "node src/scripts/createAdmin.js",
     "prod": "pm2 start ecosystem.config.cjs --env production",
-    "prod:stop": "pm2 stop srapp-backend",
-    "prod:restart": "pm2 restart srapp-backend",
-    "prod:logs": "pm2 logs srapp-backend",
+    "prod:stop": "pm2 stop dijet-srapp-backend",
+    "prod:restart": "pm2 restart dijet-srapp-backend",
+    "prod:logs": "pm2 logs dijet-srapp-backend",
     "prod:status": "pm2 status"
   },
   "dependencies": {
