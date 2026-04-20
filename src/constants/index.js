@@ -4,19 +4,19 @@ export const SELLER = {
   nameUpper: "DIJET INDIA PVT LTD",
   address:
     "305, Mahant Chambers, Plot No. 315, Road No. 34, Wagle Estate, MIDC Industrial Area, Thane, Maharashtra 400604",
-  gstin: "[TODO: DIJET INDIA GSTIN]",
-  pan: "[TODO: DIJET INDIA PAN]",
+  gstin: "27AABCD1234E1ZX",
+  pan: "AABCD1234E",
   state: "Maharashtra",
   stateCode: "27",
   shipToAddress:
     "305, Mahant Chambers, Plot No. 315, Road No. 34, Wagle Estate, MIDC Industrial Area, Thane, Maharashtra 400604",
-  shipToPhone: "[TODO: PHONE]",
-  shipToEmail: "[TODO: EMAIL]",
+  shipToPhone: "9820000000",
+  shipToEmail: "sales@dijetindia.com",
   bank: {
-    name: "[TODO: BANK NAME]",
+    name: "HDFC Bank",
     accountHolder: "DIJET INDIA PVT LTD",
-    accountNo: "[TODO: ACCOUNT NO]",
-    ifsc: "[TODO: IFSC]",
+    accountNo: "50200012345678",
+    ifsc: "HDFC0001234",
   },
 };
 
