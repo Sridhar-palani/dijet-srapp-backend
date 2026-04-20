@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  pdf-backend:
+    container_name: pdf-backend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+    shm_size: "512mb"

@@ -1,0 +1,48 @@
+{
+  "name": "srapp-backend",
+  "version": "1.0.0",
+  "description": "Backend for billing and accounting software — Retro Engineering",
+  "license": "ISC",
+  "author": "sridhar",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "create-admin": "node src/scripts/createAdmin.js",
+    "prod": "pm2 start ecosystem.config.cjs --env production",
+    "prod:stop": "pm2 stop srapp-backend",
+    "prod:restart": "pm2 restart srapp-backend",
+    "prod:logs": "pm2 logs srapp-backend",
+    "prod:status": "pm2 status"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.8.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^8.3.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.20.4",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "puppeteer": "^24.37.2",
+    "puppeteer-core": "^24.37.2",
+    "streamifier": "^0.1.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.19.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "vitest": "^3.2.4",
+    "mongodb-memory-server": "^10.1.4"
+  }
+}
