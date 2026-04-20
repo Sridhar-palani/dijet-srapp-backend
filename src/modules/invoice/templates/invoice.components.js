@@ -98,7 +98,7 @@ export const InvoiceHeaderComponent = (invoice, copyLabel = "Original for Recipi
           ${AddressLines(invoice.billTo?.address, 4, 34)}
           <p>INDIA</p>
           <p>GSTIN: ${invoice.billTo?.gstin || "-"}</p>
-          <p>State Code : ${stateCodeText(invoice.billTo?.stateCode, invoice.billTo?.state || "Tamil Nadu")}</p>
+          <p>State Code : ${stateCodeText(invoice.billTo?.stateCode, invoice.billTo?.state || "Maharashtra")}</p>
         </div>
         <p class="font-semibold mt-2 mb-0.5">Shipped To :</p>
         <div class="ml-4 space-y-0.5">
