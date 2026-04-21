@@ -115,7 +115,7 @@ const generatePurchaseOrderPDF = async (po) => {
 
         .po-top-line {
           height: 0.3mm;
-          background: #eed202;
+          background: #27a645;
           margin-top: 1.25mm;
         }
 
@@ -204,7 +204,7 @@ const generatePurchaseOrderPDF = async (po) => {
 
         .po-contact-icon {
           width: 2.5mm;
-          color: #eed202;
+          color: #27a645;
           font-size: 11px;
           line-height: 1;
           display: inline-block;

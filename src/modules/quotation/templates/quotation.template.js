@@ -92,7 +92,7 @@ const generateQuotation = async (quotation, { showDiscount } = {}) => {
 
     <style type="text/tailwindcss">
       @theme {
-        --color-retro: #eed202;
+        --color-retro: #27a645;
         --text-sri: 0.69rem;
         --color-fixed: #000000;
         --text-sri1: 0.74rem;

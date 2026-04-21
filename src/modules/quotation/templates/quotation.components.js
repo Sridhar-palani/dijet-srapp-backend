@@ -128,7 +128,7 @@ export const FooterComponent = `
             <img src="${dijetIndustrialImage}" class="h-5 object-contain" />
             <p class="text-[0.4rem] leading-snug">
               100% Own Subsidiary of<br />
-              <span style="color: #eed202; font-weight: 600;">Dijet</span> Industrial Ltd
+              <span style="color: #27a645; font-weight: 600;">Dijet</span> Industrial Ltd
             </p>
           </div>
         </div>

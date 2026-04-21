@@ -53,7 +53,7 @@ const generateInvoicePDF = async (invoice) => {
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <style type="text/tailwindcss">
       @theme {
-        --color-retro: #eed202;
+        --color-retro: #27a645;
         --text-sri: 0.69rem;
         --color-fixed: #000000;
         --text-sri1: 0.74rem;
